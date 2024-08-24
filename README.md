@@ -13,7 +13,7 @@ This README provides step-by-step instructions to set up a Laravel project with 
 
 Once you have pull the Code from this repo,Then follow this steps:
 
-1. Install NPM dependencies:
+1.Install NPM dependencies:
 
     npm install
 
