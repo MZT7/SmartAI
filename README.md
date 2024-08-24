@@ -14,12 +14,15 @@ This README provides step-by-step instructions to set up a Laravel project with 
 Once you have pull the Code from this repo,Then follow this steps:
 
 1. Install NPM dependencies:
+
     npm install
 
 2.Install COMPOSER dependencies:
+
     composer install
 
 3.Configure your database in the `.env` file:
+
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
@@ -28,6 +31,7 @@ Once you have pull the Code from this repo,Then follow this steps:
     DB_PASSWORD=your_password
 
 4.Run database migrations:
+
     php artisan migrate
 
 5.Start the Laravel development server:
