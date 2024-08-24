@@ -49,3 +49,14 @@ Once you have pull the Code from this repo,Then follow this steps:
       6.2 php artisan reverb:start
       
       6.3 php artisan queue:listen
+
+## API Documentation
+
+API documentation is available at (http://localhost:8000/request-docs) after running the development server.
+
+List of the Required API Routes:
+
+- GET /autobots
+- GET /autobots/1/posts
+- GET /api/posts/1/comments
+  
