@@ -41,3 +41,11 @@ Once you have pull the Code from this repo,Then follow this steps:
 
     5.2 In another terminal, compile assets:
         npm run dev
+
+6.Start the CronJob & Broadcasting server for realtime update:
+
+      6.1 php artisan schedule:work
+      
+      6.2 php artisan reverb:start
+      
+      6.3 php artisan queue:listen
